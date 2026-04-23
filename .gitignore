@@ -1,0 +1,49 @@
+# Python 项目通用忽略规则
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.env/
+
+# IDE 相关文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 项目特定忽略规则
+# 打包生成的文件
+dist/
+build/
+
+# 生成的图标文件
+resources/icon.icns
+resources/icon.ico
+
+# 构建临时文件
+*.spec
+
+# 测试数据
+/test_data/
+
+# 日志文件
+*.log
+
+# 本地配置文件
+local_config.py
+
+# 打包脚本生成的文件
+Toolbar.dmg
+Toolbar.exe
+
+# 其他临时文件
+*.tmp
+*.temp
